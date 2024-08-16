@@ -10,28 +10,22 @@ end
 
 local Items = {}
 
-Items.strawberry = item({
-	name = "Strawberry",
-	description = "Most would argue it tastes more like a berry than a straw, but that's probably preferable.",
-	icon = "rbxassetid://534533607",
+Items.magnet = item({
+	name = "Magnet",
+	description = "If you're not a fan of magnets, I'd consider us polar opposites.",
+	icon = "rbxassetid://18974110121",
 })
 
-Items.pepper = item({
-	name = "Pepper",
-	description = "Whether in a dish or in a spray, one thing can be said for sure about the pepper: it isn't salt.",
-	icon = "rbxassetid://8981932662",
+Items.book = item({
+	name = "Book",
+	description = "The cover makes it hard to know if you're reading it upside down or not, but nobody else will know either.",
+	icon = "rbxassetid://18974108003",
 })
 
-Items.watermelon = item({
-	name = "Watermelon",
-	description = "In an attempt to modernize, some Halloween parties have started to bob for watermelons instead.",
-	icon = "rbxassetid://13259903532",
-})
-
-Items.tomato = item({
-	name = "Tomato",
-	description = "Scientists wonder: is it a fruit or a vegetable? We threw several at them until they stopped asking.",
-	icon = "rbxassetid://9147788334",
+Items.board = item({
+	name = "Wooden Board",
+	description = "A crucial part of building any home. Not this one though, you found it on the curb.",
+	icon = "rbxassetid://18974105514",
 })
 
 return Items

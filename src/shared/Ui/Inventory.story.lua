@@ -24,23 +24,18 @@ return function(target)
 		e(Inventory, {
 			inventory = {
 				{
-					item = Items.strawberry,
+					item = Items.magnet,
 					amount = 30,
 				},
 
 				{
-					item = Items.pepper,
+					item = Items.book,
 					amount = 5,
 				},
 
 				{
-					item = Items.watermelon,
+					item = Items.board,
 					amount = 9,
-				},
-
-				{
-					item = Items.tomato,
-					amount = 1,
 				},
 			},
 

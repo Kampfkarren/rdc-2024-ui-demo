@@ -13,7 +13,7 @@ local createNextOrder = require(ReplicatedStorage.Libraries.createNextOrder)
 
 local e = React.createElement
 
-local INVENTORY_PALETTE = Styles.colors.yellow
+local INVENTORY_PALETTE = Styles.colors.green
 local INVENTORY_SLOTS = 16
 
 local function Inventory(props: {
@@ -215,8 +215,8 @@ local function Inventory(props: {
 						layout = Enum.FillDirection.Horizontal,
 						spacing = 13,
 					}, {
-						Plant = e(TextButton, {
-							text = "PLANT",
+						Equip = e(TextButton, {
+							text = "EQUIP",
 							palette = Styles.colors.green,
 							layoutOrder = nextOrder(),
 
