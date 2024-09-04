@@ -13,7 +13,7 @@ local createNextOrder = require(ReplicatedStorage.Libraries.createNextOrder)
 
 local e = React.createElement
 
-local INVENTORY_PALETTE = Styles.colors.green
+local INVENTORY_PALETTE = Styles.colors.yellow
 local INVENTORY_SLOTS = 16
 
 local function Inventory(props: {
